@@ -55,7 +55,6 @@ id="myBox" rows="8"></textarea>
 </div>
 <button disabled={text.length===0}className="btn btn-primary mx-1 my-1" onClick={handleUpClick}
 >Convert to Uppercase</button>
-<button  disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>convert to uppercase</button>
 <button  disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>convert to Lowercase</button>
 <button  disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleClearClick}>Clear Text</button>
 <button  disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handlecopy}>Copy Text</button>
